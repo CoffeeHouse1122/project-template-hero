@@ -1,0 +1,8 @@
+.dialogBtn {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  font-size: 0.3rem;
+  margin: 5rem auto 0;
+}
