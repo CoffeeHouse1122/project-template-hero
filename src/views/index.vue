@@ -5,7 +5,6 @@
       :dialog-data="dialogData"
       @closeDialog="closeDialog($event)"
     ></dialogComponent>
-    {{ docTitle }}
     <button class="dialogBtn" @click="showDialog('common', [1,2,3,4,5,6,7])">弹出</button>
   </div>
 </template>

@@ -1,5 +1,4 @@
 const path = require("path");
-const px2rem = require('postcss-px2rem')
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/qzp/' : '/',
@@ -23,17 +22,6 @@ module.exports = {
         // }
       }
     },
-  },
-  css: { // css 模块
-    loaderOptions: {
-      postcss: {
-        plugins: [
-          px2rem({
-            remUnit: 100   //基准大小 baseSize，需要和rem.js中相同
-          })
-        ]
-      }
-    }
   },
   chainWebpack: config => { // 调整内联文件的大小限制
     config.module

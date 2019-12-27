@@ -8,7 +8,6 @@ export default {
     return {
       dialogType: "", // 弹窗类型
       dialogData: "", // 弹窗内容
-      docTitle: "",
     };
   },
   methods: {
